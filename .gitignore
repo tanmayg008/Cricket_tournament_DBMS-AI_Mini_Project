@@ -1,0 +1,20 @@
+# Java / build
+*.class
+bin/
+out/
+target/
+
+# IDE and OS
+.vscode/
+*.log
+.DS_Store
+
+# MySQL connector jar (don't commit large binaries)
+lib/mysql-connector-java.jar
+
+# If you add a frontend React app
+frontend/node_modules/
+frontend/build/
+
+# MySQL DB file (if any)
+*.db
